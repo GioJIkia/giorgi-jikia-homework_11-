@@ -1,0 +1,20 @@
+/* 480px-320px */
+@media (max-width: 380) {
+  /* ------------filter-section------------ */
+  .filter-section {
+    padding: 8px 8px 40px;
+  }
+  /* -------------card-section---------------*/
+  .card-section {
+    height: 1216px;
+    padding-inline: 8px;
+    grid-template-rows: 274px;
+  }
+  .card-section-image {
+    height: 240px;
+  }
+  /* ------Sign-up-to-continue-button--------- */
+  .sign-up-button-container {
+    margin-bottom: 8px;
+  }
+}

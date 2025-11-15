@@ -1,0 +1,21 @@
+/* 768px-481px */
+@media (max-width: 620px) {
+  /* ------------filter-section------------ */
+  .filter-section {
+    padding: 20px 20px 40px;
+  }
+  /* -------------card-section---------------*/
+  .card-section {
+    height: 1504px;
+    padding-inline: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: 346px;
+  }
+  .display-none-620 {
+    display: none;
+  }
+  /* ------Sign-up-to-continue-button--------- */
+  .sign-up-button-container {
+    margin-bottom: 20px;
+  }
+}

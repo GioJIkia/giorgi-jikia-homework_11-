@@ -1,0 +1,13 @@
+/* main-style */
+:root {
+  --primary-color-black: #0d0c22;
+  --primary-color-pink: #ea4c89;
+  --secondary-color-grey: #3d3d4e;
+  --secondary-color-white: #ffffff;
+  --secondary-color-light-pink: #faebf9;
+  --border-radius-popular: 8px;
+  --border-radius-filters: 16px;
+  --border-radius-Sign-up: 30px;
+  --font-family-main: "Inter", sans-serif;
+  --main-border: 1px solid #3d3d4e;
+}
