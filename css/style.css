@@ -4,10 +4,15 @@
 .container {
   width: min(100%, 1440px);
   margin: auto;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  align-items: center;
 }
 /* ------------filter-section------------ */
 .filter-section {
-  padding: 70px;
+  width: 100%;
   background-color: var(--secondary-color-white);
   display: flex;
   justify-content: space-between;
@@ -62,9 +67,7 @@
 }
 /* -------------card-section---------------*/
 .card-section {
-  padding-inline: 70px;
   width: 100%;
-  height: 1118px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 346px 346px 346px;
@@ -123,16 +126,9 @@
   color: var(--secondary-color-grey);
 }
 /* ------Sign-up-to-continue-button--------- */
-.sign-up-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-block: 70px;
-}
 .sign-up-button {
   width: 179px;
   height: 40px;
-  opacity: 1;
   border: none;
   border-radius: var(--border-radius-Sign-up);
   background-color: var(--primary-color-pink);
@@ -141,7 +137,5 @@
   font-style: Bold;
   font-size: 12px;
   line-height: 20px;
-  text-align: center;
-  vertical-align: middle;
   color: var(--secondary-color-white);
 }
